@@ -1,0 +1,25 @@
+{
+  "name": "time-memory-consumption",
+  "version": "1.0.0",
+  "description": "To calculate how much time and space does the given function take to execute.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parthibanbalaji/time-space-complexity"
+  },
+  "author": "Parthiban",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "~15.0.1",
+    "tslint": "~5.12.1",
+    "typescript": "~3.8.3"
+  }
+}
