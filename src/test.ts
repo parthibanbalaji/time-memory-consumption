@@ -16,7 +16,7 @@ function testExection() {
         console.log(results);
     }, 2000)
 
-    let result = watcher.ShowMemoryUsage();
+    let result = watcher.showMemoryUsage();
     console.log('current',result); //show current memory usage
 }
 

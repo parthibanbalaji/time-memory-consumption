@@ -31,7 +31,7 @@ class CalculateExecutionTimeAndMemory {
         return this.watchers[name] !== undefined
     }
 
-    public ShowMemoryUsage(): type.executionMemory {
+    public showMemoryUsage(): type.executionMemory {
         return util.formatMemoryUsage(process.memoryUsage());
     }
 
