@@ -1,5 +1,4 @@
-import watcher from './index';
-import wathcer from './index';
+import * as watcher from './index';
 
 
 function testExection() {
