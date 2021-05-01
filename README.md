@@ -4,7 +4,7 @@ Module will help you to show memory usage at a given point.
 
 # usage
 var watcher = require('time-memory-consumption')
-watcher.startWatch('watcher2')
+watcher.startWatch('watcher1')
 setTimeout(function () {
     let results =  watcher.stopWatch('watcher1');
     let currentUsageMemory = watcher.showMemoryUsage();
